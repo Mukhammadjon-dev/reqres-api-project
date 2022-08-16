@@ -1,0 +1,125 @@
+.home_title{
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #2691d9;
+    margin: 15px 0 25px 0;    
+}
+.user_card{
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem auto;
+    color: #606060e0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.user_card:hover {
+    transform: scale(1.013);
+    transition: all ease-in-out 0.1s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.user_card_image{
+    box-shadow: 2px 2px 5px 3px  rgb(94, 94, 94);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin-left: 2rem;
+}
+.user_card_button{
+    width: 130px;
+    height: 2.2rem;
+    border: none;
+    border-radius: 15px;
+    margin-top: 0.7rem;
+    padding: 0.3rem 1rem;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    background: #2691d9;
+    cursor: pointer;
+}
+.user_card_name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.user_card_email{
+    font-size: 1.2rem;
+}
+.pagination_container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+@media only screen and (max-width: 750px) and (min-width: 500px)  {
+    .home_title{
+        font-size: 1.8rem;
+        margin: 10px 0 20px 0;    
+    }
+    .user_card{
+        border-radius: 15px;
+        width: 450px;
+        height: 120px;
+        margin: 1rem auto;
+    }
+    .user_card_image{
+        width: 75px;
+        height: 75px;
+        margin-left: 0.5rem;
+    }
+    .user_card_button{
+        width: 65px;
+        height: 1.5rem;
+        border: none;
+        border-radius: 10px;
+        margin-top: 0.7rem;
+        padding: 0.3rem 0.3rem;
+        font-size: 0.7rem;
+    }
+    .user_card_name {
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    .user_card_email{
+        font-size: 0.7rem;
+    }
+  }
+  @media only screen and (max-width: 499px) and (min-width: 299px)  {
+    .home_title{
+        font-size: 1rem;
+        margin: 5px 0 10px 0;    
+    }
+    .user_card{
+        border-radius: 10px;
+        width: 290px;
+        height: 90px;
+        margin: 0.7rem auto;
+    }
+    .user_card_image{
+        width: 45px;
+        height: 45px;
+        margin-left: 0.5rem;
+    }
+    .user_card_button{
+        width: 50px;
+        height: 1rem;
+        border: none;
+        border-radius: 5px;
+        margin-top: 0.7rem;
+        padding: 0.1rem 0.2rem;
+        font-size: 0.5rem;
+    }
+    .user_card_name {
+        font-size: 0.65rem;
+        font-weight: bold;
+    }
+    .user_card_email{
+        font-size: 0.5rem;
+    }
+  }
+  

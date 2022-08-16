@@ -1,0 +1,107 @@
+.userdetail_container{
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    width: 700px;
+    height: 300px;
+    margin: 1.5rem auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userdetail_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    height: 180px;
+}
+.userdetail_text{
+    font-size: 1.1rem;
+    line-height: 0.9rem;
+
+}
+.userdetail_image{
+border-radius: 50%;
+height: 160px;
+width: 160px;
+box-shadow: 2px 2px 5px 3px  rgb(94, 94, 94);
+}
+.userdetail_homebutton{
+    width: 130px;
+    height: 2.2rem;
+    border: none;
+    border-radius: 15px;
+    padding: 0.3rem 1rem;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    background: #2691d9;
+    cursor: pointer; 
+}
+@media only screen and (max-width: 750px) and (min-width: 500px)  {
+    .userdetail_container{
+        border-radius: 15px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 18px -5px, rgba(0, 0, 0, 0.3) 0px 4px 8px -4px;
+        width: 480px;
+        height: 190px;
+        margin: 1.5rem auto;
+    }
+    .userdetail_wrapper{
+        width: 420px;
+        height: 140px;
+    }
+    .userdetail_text{
+        font-size: 0.9rem;
+        line-height: 0.7rem;
+    
+    }
+    .userdetail_image{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    box-shadow: 1px 1px 2px 1px  rgb(94, 94, 94);
+    }
+    .userdetail_homebutton{
+        width: 90px;
+        height: 1.5rem;
+        border-radius: 10px;
+        padding: 0.2rem 0.7rem;
+        font-size: 0.8rem;
+    }
+    
+}
+@media only screen and (max-width: 499px) and (min-width: 299px)  {
+    .userdetail_container{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 4px 9px -3px, rgba(0, 0, 0, 0.3) 0px 2px 4px -2px;
+        border-radius: 10px;
+        width: 280px;
+        height: 120px;
+        margin: 1rem auto;
+    }
+    .userdetail_wrapper{
+        width: 250px;
+        height: 80px;
+    }
+    .userdetail_text{
+        font-size: 0.5rem;
+        line-height: 0.4rem;
+    
+    }
+    .userdetail_image{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: 1px 1px 2px 1px  rgb(94, 94, 94);
+    }
+    .userdetail_homebutton{
+        width: 60px;
+        height: 0.9rem;
+        border-radius: 5px;
+        padding: 0.1rem 0.3rem;
+        font-size: 0.6rem;
+    }   
+}
